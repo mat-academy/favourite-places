@@ -20,7 +20,7 @@ function App(): JSX.Element {
         placeBio={"Sydney is a great place!"}
       />
       <PlaceEntry
-        title={"jack"}
+        title={"The best marketplace in the world!"}
         placeName={"Jemaa el-Fna, Marrakech"}
         countryName={"Morocco"}
         // mainImage={Marrakech}
@@ -30,7 +30,7 @@ function App(): JSX.Element {
         placeBio={"Marrakech is a great place!"}
       />
       <PlaceEntry
-        title={"jack"}
+        title={"The best beach in the Southern Hemisphere"}
         placeName={"Tamarama Bay"}
         countryName={"Australia"}
         // mainImage={Tamarama}
