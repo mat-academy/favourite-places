@@ -5,6 +5,7 @@ import PageFooter from "./components/PageFooter";
 // import Marrakech from "./images/Marrakech_Morocco.jpg";
 // import Tamarama from "./images/TamaramaBay_Australia.jpg";
 
+
 function App(): JSX.Element {
   return (
     <>
@@ -13,6 +14,7 @@ function App(): JSX.Element {
         title={"The best city in the Southern Hemisphere"}
         placeName={"Sydney"}
         countryName={"Australia"}
+       // <img > ./images/Sydney_Australia.jpg </img>
         // mainImage={Sydney}
         // mapLink={
         //   <a href="https://www.google.co.uk/maps/place/Sydney+NSW,+Australia/@-33.8473552,150.6511096,10z/data=!3m1!4b1!4m5!3m4!1s0x6b129838f39a743f:0x3017d681632a850!8m2!3d-33.8688197!4d151.2092955">
@@ -45,10 +47,3 @@ function App(): JSX.Element {
 }
 
 export default App;
-
-// title: string;
-// placeName: string;
-// countryName: string;
-// mainImage: string;
-// mapLink: string;
-// placeBio: string;
