@@ -2,27 +2,31 @@ interface PlaceEntryProps {
   title: string;
   placeName: string;
   countryName: string;
-  // mainImage: string;
-  // mapLink: string;
+  mainImage: string;
+  imageDesc: string;
+  mapLink: string;
   placeBio: string;
 }
 
 function PlaceEntry(props: PlaceEntryProps): JSX.Element {
   return (
-    <section>
+    <main>
       {/* a title (text) */}
       <h2>{props.title}</h2>
       {/* a place name (text) */} {/* a country name (text) */}
-      <p>
+      <h3>
         Location: {props.placeName} - {props.countryName}
-      </p>
+      </h3>
       {/*  a main image (URL) */}
-      {/* <p>{props.mainImage}</p> */}
+      <img src={props.mainImage} className="images" alt={props.imageDesc} />
+      <br />
       {/* a link to the rough location on google maps (or alternative) (URL) */}
-      {/* <p>{props.mapLink}</p> */}
+      <a href={props.mapLink} className="links">
+        See {props.placeName} in Google maps!
+      </a>
       {/* some text explaining why you like the place */}
-      <p>{props.placeBio}</p>
-    </section>
+      <h4>{props.placeBio}</h4>
+    </main>
   );
 }
 
