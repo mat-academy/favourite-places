@@ -9,7 +9,7 @@ function App(): JSX.Element {
   return (
     <>
       <PageHeader />
-      {places} 
+      {places}
       <PageFooter />
     </>
   );
