@@ -7,7 +7,7 @@ function App(): JSX.Element {
   return (
     <>
       <PageHeader />
-      {placeArr}
+      {placeArr} 
       <PageFooter />
     </>
   );
