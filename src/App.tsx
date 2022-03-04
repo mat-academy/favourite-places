@@ -9,7 +9,7 @@ function App(): JSX.Element {
   return (
     <>
       <PageHeader />
-      <PlaceEntry 
+      <PlaceEntry
         title={"The best city in the Southern Hemisphere"}
         placeName={"Sydney"}
         countryName={"Australia"}
@@ -19,7 +19,7 @@ function App(): JSX.Element {
         //     See Syndey on a map!</a> }
         placeBio={"Sydney is a great place!"}
       />
-      <PlaceEntry 
+      <PlaceEntry
         title={"jack"}
         placeName={"Jemaa el-Fna, Marrakech"}
         countryName={"Morocco"}
@@ -29,7 +29,7 @@ function App(): JSX.Element {
         // }
         placeBio={"Marrakech is a great place!"}
       />
-      <PlaceEntry 
+      <PlaceEntry
         title={"jack"}
         placeName={"Tamarama Bay"}
         countryName={"Australia"}
