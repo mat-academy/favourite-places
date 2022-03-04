@@ -14,15 +14,16 @@ function PlaceEntry(props: PlaceEntryProps): JSX.Element {
       {/* a title (text) */}
       <h2>{props.title}</h2>
       {/* a place name (text) */} {/* a country name (text) */}
-      <p>
+      <h3>
         Location: {props.placeName} - {props.countryName}
-      </p>
+      </h3>
       {/*  a main image (URL) */}
       <img src={props.mainImage} className="images" alt={props.imageDesc}/>
+      <br />
       {/* a link to the rough location on google maps (or alternative) (URL) */}
-      <a href={props.mapLink}>see {props.placeName} in Google maps!</a>
+      <a href={props.mapLink} className="links">See {props.placeName} in Google maps!</a> 
       {/* some text explaining why you like the place */}
-      <p>{props.placeBio}</p>
+      <h4>{props.placeBio}</h4>
     </main>
   );
 }
