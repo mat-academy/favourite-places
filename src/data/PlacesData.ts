@@ -52,7 +52,7 @@ const place3: PlaceDataProps = {
   mapLink:
     "https://www.google.com/maps/place/18038+Sanremo,+Province+of+Imperia,+Italy/@43.816383,7.7133023,12z/data=!3m1!4b1!4m5!3m4!1s0x12cdf5450348b727:0x3c017283ac41265d!8m2!3d43.8159671!4d7.7760567",
   placeBio:
-    "San Remo is a short drive along the French Cote d'Azur and features beautiful views, a 12th-century cathedral and wonderful restaurants & cafes.",
+    "San Remo is a short drive along the French Cote d'Azur into Italy and features beautiful views, a 12th-century cathedral and wonderful restaurants & cafes.",
 };
 
 const place4: PlaceDataProps = {
